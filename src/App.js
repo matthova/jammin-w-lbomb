@@ -29,6 +29,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Weather, Dudes</h1>
+          <p>Testing to see if I can push to remote repo.</p>
         </header>
         <p>To the limit?</p>
         <p>{this.state.toLimit ? 'YEA!' : 'NOPE'}</p>
@@ -41,4 +42,3 @@ class App extends Component {
   }
 }
 export default App;
-
